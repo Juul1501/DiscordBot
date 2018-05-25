@@ -1,0 +1,379 @@
+1527236108274	geckodriver	INFO	geckodriver 0.20.1
+1527236108287	geckodriver	INFO	Listening on 127.0.0.1:50268
+1527236188687	geckodriver	INFO	geckodriver 0.20.1
+1527236188698	geckodriver	INFO	Listening on 127.0.0.1:50281
+1527236343652	geckodriver	INFO	geckodriver 0.20.1
+1527236343663	geckodriver	INFO	Listening on 127.0.0.1:50467
+1527236346600	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.SlsgGa6Bv9Ug"
+1527236346909	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527236348698	Marionette	INFO	Listening on port 50475
+1527236349716	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4660, Chrome_ChildThrea[Parent 8172, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8716, Chrome_ChildThread] WARNING: p*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527236355183	Marionette	INFO	Stopped listening on port 50475
+[GPU 10212, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527236413624	geckodriver	INFO	geckodriver 0.20.1
+1527236413633	geckodriver	INFO	Listening on 127.0.0.1:50524
+1527236416574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.7975W4w0BGGt"
+1527236416826	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527236418559	Marionette	INFO	Listening on port 50532
+1527236418610	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527236427256	Marionette	INFO	Stopped listening on port 50532
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527236465848	geckodriver	INFO	geckodriver 0.20.1
+1527236465860	geckodriver	INFO	Listening on 127.0.0.1:50569
+1527236468796	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.bQs7lsVUhdhE"
+1527236469038	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527236470759	Marionette	INFO	Listening on port 50578
+1527236470823	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ip[Parent 15212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1300, Chrome_Ch1527236781402	Marionette	INFO	Stopped listening on port 50578
+[GPU 3[Parent 5212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9616, 1527236782546	Marionette	INFO	Stopped listening on port 50630
+[GPU 9532, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+me[Parent 8544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14796, Chrome_Ch[Parent 8544, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527236628440	Marionette	INFO	Stopped listening on port 50698
+[GPU 4640, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527236677318	geckodriver	INFO	geckodriver 0.20.1
+1527236677328	geckodriver	INFO	Listening on 127.0.0.1:50737
+1527236680280	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.uKyGU90atWLu"
+1527236680535	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527236682254	Marionette	INFO	Listening on port 50745
+1527236682307	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14724, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8752, Chrome_ChildThread] WARNING: pipe error: 109: file z1527236757138	Marionette	INFO	Stopped listening on port 50745
+[GPU 6572, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+7
+1527236718316	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14932, Chrome_ChildThread[Parent 1552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9908, C*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527236746344	Marionette	INFO	Stopped listening on port 50797
+[GPU 12448, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527239538143	geckodriver	INFO	geckodriver 0.20.1
+1527239538154	geckodriver	INFO	Listening on 127.0.0.1:51092
+1527239541083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.lpFQeKRR7jJB"
+1527239541404	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527239543131	Marionette	INFO	Listening on port 51100
+1527239544203	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10768, [Child 3536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3536, Chrome_Ch[Parent 10536, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527239780146	Marionette	INFO	Stopped listening on port 51100
+[GPU 11908, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+RNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527239778486	Marionette	INFO	Stopped listening on port 51139
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+e ignored for this session
+[Parent 4000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4000, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3084, Chrome_ChildThread] WARNING: pipe error: 109: file *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527239775323	Marionette	INFO	Stopped listening on port 51200
+[GPU 7020, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527239897646	geckodriver	INFO	geckodriver 0.20.1
+1527239897660	geckodriver	INFO	Listening on 127.0.0.1:51279
+1527239900586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.PmGRIxexbctg"
+1527239900913	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527239902680	Marionette	INFO	Listening on port 51287
+1527239903699	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13424, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13424, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_chan[Child 872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13424, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7868, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7868, Ch1527240050076	Marionette	INFO	Stopped listening on port 51287
+[GPU 25
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+hannel_win.cc, line 346
+[Child 11848, Chrome_ChildThread] WARNING: pipe error: 109:[Parent 11296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527239969661	Marionette	INFO	Stopped listening on port 51332
+[GPU 13096, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527240159145	geckodriver	INFO	geckodriver 0.20.1
+1527240159154	geckodriver	INFO	Listening on 127.0.0.1:51459
+1527240162087	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.V46L4Rn3LCDv"
+1527240162322	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527240164067	Marionette	INFO	Listening on port 51467
+1527240164130	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 3488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Parent 3488, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527240168775	Marionette	INFO	Stopped listening on port 51467
+[GPU 4740, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527240342887	geckodriver	INFO	geckodriver 0.20.1
+1527240342898	geckodriver	INFO	Listening on 127.0.0.1:51547
+1527240345836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.JHrchVxRJnhC"
+1527240346073	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527240347830	Marionette	INFO	Listening on port 51555
+1527240347920	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1932, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527240660575	Marionette	INFO	Stopped listening on port 51555
+[GPU 5124, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+r this session
+[Parent 4264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 592, Chrome_ChildThread] [Parent 4264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527240660603	Marionette	INFO	Stopped listening on port 51604
+[GPU 4360, Chrome_
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+OThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 13148, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromiu[Parent 13148, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527240660628	Marionette	INFO	Stopped listening on port 51662
+[GPU 1248, Chrome_ChildThread] 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ errors will be ignored for this session
+[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6540, Chrome_ChildThr[Parent 4288, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527240573839	Marionette	INFO	Stopped listening on port 51714
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527240673309	geckodriver	INFO	geckodriver 0.20.1
+1527240673320	geckodriver	INFO	Listening on 127.0.0.1:51759
+1527240676239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.ec4CXDyzps3K"
+1527240676545	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527240678358	Marionette	INFO	Listening on port 51767
+1527240679356	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15252, Chrome_[Child 14244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 14244, Chrome_ChildThread] WARNING: pipe error: 10[Parent 11388, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527240770875	Marionette	INFO	Stopped listening on port 51767
+[GPU 1656, Chrome_ChildThread] WARN
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Thread] WARNING: pipe error: 109: file z:/build/b[Child 204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to remove
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to remove
+1527240835703	geckodriver	INFO	geckodriver 0.20.1
+1527240835715	geckodriver	INFO	Listening on 127.0.0.1:51886
+1527240838649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.31UlMf22gjj4"
+1527240838894	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527240840569	Marionette	INFO	Listening on port 51894
+1527240840662	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4312, Chrome_ChildThread] WARNIN[Parent 14392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1527240893554	Marionette	INFO	Stopped listening on port 51894
+[GPU 13672, C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527240900834	geckodriver	INFO	geckodriver 0.20.1
+1527240900846	geckodriver	INFO	Listening on 127.0.0.1:51934
+1527240903770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.iAdm1xxz4Fv4"
+1527240904001	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527240905761	Marionette	INFO	Listening on port 51942
+1527240905839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+[Parent 11704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7388, Chrome_ChildThrea[Parent 11704, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527240986066	Marionette	INFO	Stopped listening on port 51942
+[GPU 14880, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1527241170041	geckodriver	INFO	geckodriver 0.20.1
+1527241170052	geckodriver	INFO	Listening on 127.0.0.1:52018
+1527241172977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Nightly\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Juul\\AppData\\Local\\Temp\\rust_mozprofile.eVSanbOPr48B"
+1527241173224	addons.xpi-utils	WARN	Error: Synchronously loading the add-ons database (resource://gre/modules/addons/XPIDatabase.jsm:1386:17) JS Stack trace: syncLoadDB@XPIDatabase.jsm:1386:17
+checkForChanges@XPIProvider.jsm:2775:9
+startup@XPIProvider.jsm:2324:25
+callProvider@AddonManager.jsm:205:12
+_startProvider@AddonManager.jsm:653:5
+startup@AddonManager.jsm:812:9
+startup@AddonManager.jsm:2864:5
+observe@addonManager.js:66:9
+1527241174949	Marionette	INFO	Listening on port 52026
+1527241175018	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7220, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527241726408	Marionette	INFO	Stopped listening on port 52026
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
