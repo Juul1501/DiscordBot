@@ -1,24 +1,18 @@
 import selenium.webdriver as webdriver
-
-def get_result(search_term):
-    url = "https://images.google.com/"
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import time
+def get_result():
     browser = webdriver.Firefox()
-    browser.get(url)
-    search_box = browser.find_element_by_id("lst-ib")
-    search_box.send_keys(search_term)
-    search_box.sumbit()
-    links = browser.find_elements_by_xpath("//a")
-    
-    results = []
+    browser.get('http://www.google.com')
 
-    for link in links:
-        href = link.get_attribute("href")
-        print(href)
-        results.append(href)
-    browser.close()
-    return results
+    search = browser.find_element_by_name('q')
+    search.send_keys("google search through python")
+    search.send_keys(Keys.RETURN)
+    time.sleep(5)
+    browser.quit()
 
-get_result("hond")
+get_result()
 
 
 
