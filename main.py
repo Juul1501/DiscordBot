@@ -6,11 +6,13 @@ import os
 import urllib
 import urllib.request
 
+
 bot = commands.Bot(";")
 
 @bot.event
 async def on_ready():
     print("Bot online")
+
 
 @bot.command(pass_context=True)
 async def search(ctx, *, query):
@@ -26,7 +28,7 @@ async def pl(ctx):
     lijst = []
     files = os.listdir('./bin/')
     for name in files:
-        temp = name[:-4]
+        temp = name.rsplit[:-4]
         lijst.append(temp)
         print(lijst)
     await bot.send_message(channel,content=lijst)
@@ -37,9 +39,12 @@ async def p(ctx, query):
     channel = author.voice_channel
     voice = await bot.join_voice_channel(channel)
     player = voice.create_ffmpeg_player('./bin/'+query+'.mp3')
+        
     player.start()
     await asyncio.sleep(2)
     await voice.disconnect()
+
+
  
 #Google Search
 def get_result_google_thumb(search_term):
