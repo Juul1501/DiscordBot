@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord.voice_client import VoiceClient
 import asyncio
-
+import os
 import urllib
 import urllib.request
 
@@ -21,23 +21,26 @@ async def search(ctx, *, query):
     print ("search command used")
 
 @bot.command(pass_context=True)
-async def fn(ctx, *, query):
+async def pl(ctx):
     channel = ctx.message.channel
-    get_result_giphy(query)
-    
-    await bot.send_file(channel, "img.gif", content=query)
+    lijst = []
+    files = os.listdir('./bin/')
+    for name in files:
+        temp = name[:-4]
+        lijst.append(temp)
+        print(lijst)
+    await bot.send_message(channel,content=lijst)
 @bot.command(pass_context=True)
-async def join(ctx): 
+async def p(ctx, query):
+
     author = ctx.message.author
-    channel = author.voice_channel 
+    channel = author.voice_channel
     voice = await bot.join_voice_channel(channel)
-    player = bot.create_ffpmeg_player("./jesper.mp3")
+    player = voice.create_ffmpeg_player('./bin/'+query+'.mp3')
     player.start()
-    await VoiceClient.disconnect()
-
-
-
-
+    await asyncio.sleep(2)
+    await voice.disconnect()
+ 
 #Google Search
 def get_result_google_thumb(search_term):
     try:    
