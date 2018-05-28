@@ -23,8 +23,12 @@ async def search(ctx, *, query):
 async def fn(ctx, *, query):
     channel = ctx.message.channel
     get_result_giphy(query)
+    
     await bot.send_file(channel, "img.gif", content=query)
 
+
+
+#Google Search
 def get_result_google_thumb(search_term):
     try:    #Probeer dit indien het foutgaat geef False terug anders True (zorgt dat de bot niet breekt)
         user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7' #Deze header zorgt dat google niet gaat klagen dat we een bot zijn
@@ -42,7 +46,7 @@ def get_result_google_thumb(search_term):
         return True
     except Exception:
         return False
-
+#bing search
 def get_result_bing(search_term):
     try:    #Probeer dit indien het foutgaat geef False terug anders True (zorgt dat de bot niet breekt)
         user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7' #Deze header zorgt dat google niet gaat klagen dat we een bot zijn
@@ -63,7 +67,7 @@ def get_result_bing(search_term):
         return True
     except Exception:
         return False
-
+#giphy search 
 def get_result_giphy(search_term):
     try:
         user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
