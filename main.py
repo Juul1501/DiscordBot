@@ -11,6 +11,7 @@ bot = commands.Bot(";")
 
 @bot.event
 async def on_ready():
+
     print("Bot online")
 
 
