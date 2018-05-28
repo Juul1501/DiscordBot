@@ -29,7 +29,11 @@ async def fn(ctx, *, query):
 async def join(ctx): 
     author = ctx.message.author
     channel = author.voice_channel 
-    await bot.join_voice_channel(channel) 
+    voice = await bot.join_voice_channel(channel)
+    player = bot.create_ffpmeg_player("./jesper.mp3")
+    player.start()
+    await VoiceClient.disconnect()
+
 
 def get_result_google_thumb(search_term):
     try:    
