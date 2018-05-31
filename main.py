@@ -17,9 +17,9 @@ async def on_ready():
 
 @bot.command(pass_context=True)
 async def search(ctx, *, query):
-    channel = ctx.message.channel                                           #Dit is de channel waarin de text post is gemaakt
-    if not get_result_bing(query):                                          #Als bing kut doet...
-        get_result_google_thumb(query)                                      #doe dan google (al zijn dat alleen thumbnails)
+    channel = ctx.message.channel                                          
+    if not get_result_bing(query):                                          
+        get_result_google_thumb(query)                                      
     await bot.send_file(channel, "img.jpg", content=query)
     print ("search command used")
 
@@ -29,7 +29,7 @@ async def pl(ctx):
     lijst = []
     files = os.listdir('./bin/')
     for name in files:
-        temp = name.rsplit[:-4]
+        temp = name[:-4]
         lijst.append(temp)
         print(lijst)
     await bot.send_message(channel,content=lijst)
