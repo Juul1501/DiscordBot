@@ -60,7 +60,7 @@ class Juulbot:
         channel = author.voice_channel
         if state.voice is None:
             state.voice = await bot.join_voice_channel(channel)
-        player = state.voice.create_ffmpeg_player('/.bin/'+query+'.mp3')
+        player = state.voice.create_ffmpeg_player('./bin/'+query+'.mp3')
         player.start()
 
 
